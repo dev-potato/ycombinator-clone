@@ -4,12 +4,26 @@ import App from './components/App';
 import setGlobalStyles from 'styles/globals';
 import * as serviceWorker from './serviceWorker';
 
+import { Provider } from 'react-redux';
+import configureStore from 'store';
+
 setGlobalStyles();
 
-ReactDOM.render(
-<App />, 
-document.getElementById('root')
-);
+const renderApp = () => {
+    const initialState = {};
+    const store = configureStore(initialState);
+
+    store.dispatch({ type: '@hn/@@INIT' });
+
+    ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root')
+    );
+}
+
+renderApp();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
