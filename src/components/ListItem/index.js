@@ -21,7 +21,7 @@ const ListItem = ({by, kids = [], score, url, title, id, type, time}) => {
                 </Title>
             </ExternalLink>
             <Description>
-                {score} points by(' ')
+                {score} points by {' '}
                 <CommentLink href={userUrl} rel={LINK_REL} target='_blank'>
                     {by}
                 </CommentLink>{' '}

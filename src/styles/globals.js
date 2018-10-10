@@ -23,7 +23,7 @@ const setGlobalStyles = () => {
     }
 
     a {
-        text-decoratoin: none;
+        text-decoration: none;
         
         &visited {
             color: inherit;

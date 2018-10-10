@@ -21,7 +21,7 @@ const actions = {
             return hackerNewsApi
                 .getTopStoryIds()
                 .then(storyIds => {
-                    dispatch(action(actionTypes.FETCH_STORY_IDS_REQUEST, {storyIds}));
+                    dispatch(action(actionTypes.FETCH_STORY_IDS_SUCCESS, {storyIds}));
                     dispatch(actions.fetchStories({ storyIds, page: 0}));
                     return storyIds;
                 })
