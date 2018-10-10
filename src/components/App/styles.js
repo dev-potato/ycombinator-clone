@@ -26,6 +26,5 @@ export const SubTitle = styled.h3`
     font-size: 12px;
     font-weight: 200;
     margin-top: -10px;
-    margin-left: 40px;
     margin-bottom: 26px;
 `
