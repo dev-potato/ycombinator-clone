@@ -31,5 +31,4 @@ const setGlobalStyles = () => {
     }
     `
 }
-
 export default setGlobalStyles;

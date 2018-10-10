@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '.components/App';
+import App from './components/App';
 import setGlobalStyles from 'styles/globals';
 import * as serviceWorker from './serviceWorker';
 
 setGlobalStyles();
 
 ReactDOM.render(
- <App />, 
+<App />, 
 document.getElementById('root')
 );
 
