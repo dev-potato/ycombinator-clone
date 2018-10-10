@@ -849,6 +849,11 @@
     "@svgr/core" "^2.4.1"
     loader-utils "^1.1.0"
 
+"@types/jquery@^2.0.40":
+  version "2.0.51"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-2.0.51.tgz#d0c728663de8905457a26c8891ac08ad2b3539c9"
+  integrity sha512-+vtCjz+pzr5KkaX/GMnVF0YtQqkm+oVcdBH0Q7zCxdwk42c71xJ9hT1b6Mbn4Kf7CAxSHvkWF1LRdpYwUM+pcg==
+
 "@types/tapable@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.2.tgz#e13182e1b69871a422d7863e11a4a6f5b814a4bd"
@@ -7842,6 +7847,11 @@ react-error-overlay@^5.0.4:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.0.4.tgz#39cf184d770f98b65a2ee59a779d03b8d092b69e"
   integrity sha512-grVJtoDzIbSMYgy5rKbSOmt2FvzR4iJnpMBjXmZolSYJM5acQvBHoEbBBNW0FzTE/TLZMZ+gSy0bAHydc1hFEw==
 
+react-infinite-scroll-component@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-4.2.0.tgz#605227dd213987c8d785157a87178acc26d465e1"
+  integrity sha512-pseyMJ8Ljk9Xr1nkWMg6VRSY7JgszCvf9lndStFovBvsVjQOYm8gFlPE1v+O/GUMUNvNk/9pbvFdPeHPz1AQ3A==
+
 react-is@^16.3.1:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.2.tgz#e2a7b7c3f5d48062eb769fcb123505eb928722e3"
@@ -8232,6 +8242,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+reselect@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
+  integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -9138,6 +9153,13 @@ thunky@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.2.tgz#a862e018e3fb1ea2ec3fce5d55605cf57f247371"
   integrity sha1-qGLgGOP7HqLsP85dVWBc9X8kc3E=
+
+timeago.js@^4.0.0-beta.1:
+  version "4.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/timeago.js/-/timeago.js-4.0.0-beta.1.tgz#9fd9523e42747f7957430f1d1df57de11a66741f"
+  integrity sha512-4nqHcIbOwiB9q28rHowuIjjxQHBUDO2nHb4Hb3OOtaIhmzYWqNOZjIZkSTiRf0Ch7YzFw4t1bXsQA6prpKSfag==
+  dependencies:
+    "@types/jquery" "^2.0.40"
 
 timers-browserify@^2.0.4:
   version "2.0.10"

@@ -7,7 +7,6 @@ const List = ( {stories} ) => (
         { stories.map( story => (
             <ListItem key={story.id} {...story}/> 
         ))}
-        {/* <ListItem /> */}
     </ListWrapper>
 )
 
