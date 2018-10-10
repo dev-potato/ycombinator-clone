@@ -1,0 +1,11 @@
+{
+  "main.js": "/ycombinator-clone/static/js/main.9ee4fe50.chunk.js",
+  "main.js.map": "/ycombinator-clone/static/js/main.9ee4fe50.chunk.js.map",
+  "static/js/1.fbb72678.chunk.js": "/ycombinator-clone/static/js/1.fbb72678.chunk.js",
+  "static/js/1.fbb72678.chunk.js.map": "/ycombinator-clone/static/js/1.fbb72678.chunk.js.map",
+  "runtime~main.js": "/ycombinator-clone/static/js/runtime~main.b46f5f16.js",
+  "runtime~main.js.map": "/ycombinator-clone/static/js/runtime~main.b46f5f16.js.map",
+  "index.html": "/ycombinator-clone/index.html",
+  "precache-manifest.6d7ca6e8c98d85484bd20539f81cce4b.js": "/ycombinator-clone/precache-manifest.6d7ca6e8c98d85484bd20539f81cce4b.js",
+  "service-worker.js": "/ycombinator-clone/service-worker.js"
+}
